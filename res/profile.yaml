@@ -1,0 +1,44 @@
+name: "Random"
+manufacturer: "Qinyong"
+model: "1"
+labels:
+  - "random"
+  - "qinyong"
+  - "test"
+
+description: "random number generator to simulate a device"
+
+deviceResources:
+  -
+    name: "randomnumber1"
+    description: ""
+    attributes:
+      { type: "random"}
+    properties:
+      value:
+        { type: "int32", readWrite: "R"}
+      units:
+        { type: "string", readWrite: "R"}
+
+deviceCommands:
+  -
+    name: "Random"
+    get:
+      - {operation: "get", deviceResource: "randomnumber1"}
+
+
+coreCommands:
+  -
+    name: "randomNumber"
+    get:
+      path: "/api/v1/device/{deviceId}/Random"
+      response: 
+        - 
+          code: "200"
+          description: "successful"
+          expectedValues: ["randomnumber1"]
+        
+        -
+          code: "503"
+          description: "service unavailabel"
+          expectedValues: [""]

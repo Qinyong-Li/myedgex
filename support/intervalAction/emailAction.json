@@ -1,0 +1,10 @@
+{
+    "address": "localhost",
+    "httpmethod": "POST",
+    "interval": "emailClock",
+    "name": "email",
+    "path": "/api/v1/notification",
+    "port": 48060,
+    "protocol": "http",
+    "target": "support-notifications"
+}

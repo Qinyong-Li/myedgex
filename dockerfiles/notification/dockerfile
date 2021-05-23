@@ -1,0 +1,5 @@
+FROM edgexfoundry/docker-support-notifications-go:1.3.0
+
+VOLUME [ "/res" ]
+
+CMD ["--confdir=/res" ]

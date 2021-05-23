@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/main.dir/random.c.o  -o main   -L/home/qinyong/device-sdk-c/build/release/_CPack_Packages/Linux/TGZ/csdk-1.2.1/lib  -Wl,-rpath,/home/qinyong/device-sdk-c/build/release/_CPack_Packages/Linux/TGZ/csdk-1.2.1/lib -lcsdk 

@@ -1,0 +1,21 @@
+{
+    "channels": [
+      {
+        "mailAddresses": [
+          "3075515632@qq.com"
+        ],
+        "type": "EMAIL"
+      }
+    ],
+    "description": "send email to qq",
+    "receiver": "qinyong",
+    "slug": "sys-admin",
+    "subscribedCategories": [
+      "SECURITY"
+    ],
+    "subscribedLabels": [
+      "test",
+      "qinyong",
+      "email"
+    ]
+  }

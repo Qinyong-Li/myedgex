@@ -1,0 +1,3 @@
+/home/qinyong/edgex/deviceservice/build/CMakeFiles/rebuild_cache.dir
+/home/qinyong/edgex/deviceservice/build/CMakeFiles/edit_cache.dir
+/home/qinyong/edgex/deviceservice/build/CMakeFiles/main.dir

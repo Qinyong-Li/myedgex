@@ -1,0 +1,14 @@
+{
+    "category": "SECURITY",
+    "content": "string",
+    "created": 0,
+    "description": "string",
+    "labels": [
+      "qinyong",
+      "email"
+    ],
+    "sender": "qinyong@163.com",
+    "severity": "NORMAL",
+    "slug": "sys-qinyongli3",
+    "status": "NEW"
+}
