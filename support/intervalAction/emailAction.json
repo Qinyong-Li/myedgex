@@ -1,10 +1,11 @@
 {
-    "address": "localhost",
+    "address": "",
     "httpmethod": "POST",
     "interval": "emailClock",
     "name": "email",
-    "path": "/api/v1/notification",
+    "path": "/api/v1/device/name/RandNum-Device/randomnumber",
     "port": 48060,
     "protocol": "http",
-    "target": "support-notifications"
+    "target": "device_call2",
+    "id": "5db91081-e066-4cf3-a8d9-f37fa0a396a3"
 }

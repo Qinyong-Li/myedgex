@@ -1,5 +1,5 @@
 {
-    "frequency": "60s",
+    "frequency": "5s",
     "name": "emailClock",
-    "start": "20180101T000000"
+    "start": "20210523T173100"
 }
